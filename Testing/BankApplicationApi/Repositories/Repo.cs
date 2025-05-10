@@ -27,29 +27,23 @@ namespace BankApplicationApi.Repositories
 
         public async Task<bool> Save(Account account)
         { 
-            await _context.AddAsync(account);
+            var newAccount = await _context.Accounts.AddAsync(account);
             var result = await _context.SaveChangesAsync();
-            return result > 0;
+            return result > 0 ;
         }
 
-        public async Task<bool> Update(Guid id, decimal balance)
-        {
-            var account = await _context.Accounts.FindAsync(id);
-            if (account == null)
-                return false;
-            account.SetBalance(balance);  
-            _context.Update(account);
+        public bool Update(Account account, decimal balance)
+        { 
+            account.SetBalance(balance);
+            _context.Accounts.Update(account);
             var result = _context.SaveChanges();
             return result > 0;
         }
 
-        public async Task<bool> Delete(Guid id)
-        {
-            var account = await _context.Accounts.FindAsync(id);  
-            if (account == null) return false;
-
+        public bool Delete(Account account)
+        { 
             _context.Accounts.Remove(account);
-            var result = await _context.SaveChangesAsync();
+            var result = _context.SaveChanges();
             return result > 0;
         }
 

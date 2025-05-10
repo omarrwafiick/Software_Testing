@@ -36,16 +36,16 @@ namespace BankApplicationApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(Guid id, decimal balance)
-        {
-            var result = await _repo.Update(id, balance); 
+        public async Task<ActionResult> Update(Account account, decimal balance)
+        {  
+            var result = _repo.Update(account, balance); 
             return !result ? NotFound() : Ok();
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(Guid id)
-        {
-            var result = await _repo.Delete(id); 
+        public async Task<ActionResult> Delete(Account account)
+        { 
+            var result = _repo.Delete(account); 
             return !result ? NotFound() : Ok();
         }
 

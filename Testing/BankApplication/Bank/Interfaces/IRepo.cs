@@ -8,7 +8,7 @@ namespace BankApplicationApi.Interfaces
         Task<Account> Get(Guid id);
         Task<List<Account>> Get();
         Task<bool> Save(Account account);
-        Task<bool> Update(Guid id, decimal balance);
-        Task<bool> Delete(Guid id);
+        bool Update(Account account, decimal balance);
+        bool Delete(Account account);
     }
 }

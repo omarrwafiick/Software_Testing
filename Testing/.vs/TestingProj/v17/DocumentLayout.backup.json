@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F2F8C82D-4063-4964-9A45-B6FF3CD1D4D3}|IntegrationTesting\\IntegrationTesting.csproj|c:\\users\\sphinx\\documents\\my projects\\testing\\project1\\testing\\integrationtesting\\bankingsystemtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2F8C82D-4063-4964-9A45-B6FF3CD1D4D3}|IntegrationTesting\\IntegrationTesting.csproj|solutionrelative:integrationtesting\\bankingsystemtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4701456-538E-49A0-B950-DF0F7EE12153}|BankApplicationApi\\BankApplicationApi.csproj|c:\\users\\sphinx\\documents\\my projects\\testing\\project1\\testing\\bankapplicationapi\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4701456-538E-49A0-B950-DF0F7EE12153}|BankApplicationApi\\BankApplicationApi.csproj|solutionrelative:bankapplicationapi\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,6 +33,19 @@
               "Name": "ST:119168537:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "C:\\Users\\sphinx\\Documents\\My Projects\\Testing\\project1\\Testing\\BankApplicationApi\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "BankApplicationApi\\Controllers\\BankController.cs",
+              "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Testing\\project1\\Testing\\BankApplicationApi\\Controllers\\BankController.cs",
+              "RelativeToolTip": "BankApplicationApi\\Controllers\\BankController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T19:19:07.324Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
@@ -40,7 +57,7 @@
               "RelativeDocumentMoniker": "IntegrationTesting\\BankingSystemTest.cs",
               "ToolTip": "C:\\Users\\sphinx\\Documents\\My Projects\\Testing\\project1\\Testing\\IntegrationTesting\\BankingSystemTest.cs",
               "RelativeToolTip": "IntegrationTesting\\BankingSystemTest.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T15:23:12.132Z",
               "EditorCaption": ""
